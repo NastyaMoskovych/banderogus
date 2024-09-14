@@ -1,0 +1,241 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #1b1d1f;
+}
+
+.main-page{
+    width: 100%;
+    background: linear-gradient(270deg, #a5deff 0%, #fcfefe 99.8%);
+
+}
+
+.main-page-text-container {
+    border-radius: 40px;
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    position: relative;
+}
+
+.main-page-hello-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.main-page-title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 112%;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.main-page-body-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.main-page-btn{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: #ff6b0a;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.logo-position{
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+
+.facts{
+    padding-top: 48px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.facts-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.facts-body-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    width: 772px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.facts-tryzub{
+    margin-bottom: 24px;
+}
+
+.facts-item{
+    width: calc((100% / 3) - (24px * 2) / 3);
+}
+
+.facts-item-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.facts-item-body-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-container{
+    background: linear-gradient(270deg, #a5deff 0%, #fcfefe 99.8%);
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form{
+    background: #fff;
+    border-radius: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 32px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-tryzub{
+    margin-bottom: 32px;
+}
+
+.form-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.form-body-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-field-label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 8px;
+}
+
+.form-field-name{
+    margin-bottom: 24px;
+}
+
+.form-input{
+    background: #fff;
+    border: 1px solid #005bbb;
+    border-radius: 8px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.form-btn{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: #ff6b0a;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.form-field-email{
+    margin-bottom: 48px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
